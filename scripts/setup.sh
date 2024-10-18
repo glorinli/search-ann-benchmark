@@ -25,8 +25,8 @@ fi
 
 # wikipedia contents
 data_type=passages-c400-jawiki-20230403
-model_type=multilingual-e5-base-passage
-setting_type=100k-768-m32-efc200-ef100-ip
+model_type=text-embedding-3-small-dim512
+setting_type=100k-1536-m32-efc200-ef100-ip
 
 data_dir="${base_dir}/../dataset/${data_type}"
 output_dir="${base_dir}/../output"
